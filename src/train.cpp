@@ -32,7 +32,7 @@ void Train::addCage(bool light) {
         cage->prev = cur;
         cage->next = first;
         first->prev = cage;
-  }    
+  }
 }
 
 int Train::getLength() {
